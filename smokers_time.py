@@ -9,7 +9,6 @@
 
 def calc(cigPdia,anos):
     #minutos perdidos por dia. Se o cigPdia for => 140, a pessoa que testou é um zumbi. 1 dia = 1440 min.
-    #Se o cigPdia for > 140... não empresta dinheiro para essa pessoa...
     
     #Tempo em minutos perdido por dia pelo fumante
     minPerCig = cigPdia * 10
@@ -22,4 +21,4 @@ def calc(cigPdia,anos):
     
 cig = int ( input("Numero de cigarros fumados por dia: "))    
 anos = int ( input("Há quantos anos você fuma?: "))
-print("Voce ja perdeu %d dias da sua vida...)" %calc(cig,anos))
+print("Voce ja perdeu %d dias da sua vida..." %calc(cig,anos))
