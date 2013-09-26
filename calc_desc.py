@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 #_*_ encoding: utf-8 _*_
+#
 #Lista 1 de exercícios
 #5) Solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o
 #   preço a pagar.
