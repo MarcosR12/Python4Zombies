@@ -41,7 +41,6 @@ def open_url_installed_opener():
   resp = urllib.request.urlopen(uri).read()
   data = data = json.loads(resp.decode('utf-8'))
   print(data['value']['joke'])
-  print ("Apparent success through proxy server!")
 
 if __name__ == "__main__":
   open_url_no_proxy()
